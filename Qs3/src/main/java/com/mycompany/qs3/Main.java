@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Q3;
-
-import Qs3.Car;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -12,7 +10,7 @@ import java.util.Scanner;
  *
  * @author admin
  */
-public class Main {
+public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Car> mcarList = new LinkedList<>();
@@ -44,4 +42,5 @@ public class Main {
         } while (true);   
     }
 }
+
 
