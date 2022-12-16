@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Q3;
-import Qs3.Car;
-import Qs3.ICar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -14,12 +12,6 @@ import java.util.List;
  * @author admin
  */
 public class MyCar implements ICar{
-
-    /**
-     *
-     * @param t
-     * @return
-     */
     @Override
     public int f1(List<Car> t) {
         double sum = 0;
@@ -45,7 +37,6 @@ public class MyCar implements ICar{
         t.set(indexMin, t.get(indexMax));
         t.set(indexMax, carTemp);
     }
-    //  7 9 8 5 
 
     /**
      *
@@ -94,3 +85,4 @@ public class MyCar implements ICar{
         return indexMax;
     }
 }
+
