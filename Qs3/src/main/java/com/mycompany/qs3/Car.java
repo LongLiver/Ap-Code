@@ -6,7 +6,7 @@ package Qs3;
 
 /**
  *
- * @author tuan
+ * @author admin
  */
 public class Car {
     private String maker;
